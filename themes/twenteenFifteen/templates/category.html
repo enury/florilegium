@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Category Page | {{ SITENAME }}</title>
+{% endblock %}
+{% block robots %}
+<meta name="robots" content="nonindex, follow">
+{% endblock %}
+
+{% block content %}
+{% for article in articles_page.object_list %}
+<article class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h2 class="entry-title">
+      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
+    </h2>
+    <br>
+    {% if article.metadata.featured_image %}
+    <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}" />
+    {% endif %}
+    <br>
+  </header>
+  <div class="entry-content">
+    <p>{{ article.summary }}</p>
+    <a href="{{ SITEURL }}/{{ article.url }}" class="more-link"><span class="screen-reader-text">{{ article.title
+        }}</span> Read More...</a>
+  </div>
+  <footer class="entry-footer">
+    <span class="posted-on">
+      <span class="screen-reader-text">Published </span>
+        <time class="entry-date published" datetime="{{ article.date }}">{{ article.date.strftime('%Y-%m-%d') }}</time>
+    </span>
+    <span class="cat-links">
+      <span class="screen-reader-text">Category </span>
+      <a href="#" rel="category">{{ article.category }}</a>
+    </span>
+  </footer>
+</article>
+{% endfor %}
+<nav class="navigation pagination" role="navigation">
+  <h2 class="screen-reader-text">Posts navigation</h2>
+  <div class="nav-links">
+
+    {# Previous button if there is a previous page #}
+    {% if articles_page.has_previous() %}
+    <a class="prev page-numbers"
+      href="{{ SITEURL }}/category/{{ category.slug }}{% if articles_page.previous_page_number() > 1 %}{{ articles_page.previous_page_number() }}{% else %}.html{% endif %}"
+      rel="prev">Previous</a>
+    {% endif %}
+
+    {# Define the start and end of the pagination range #}
+    {% set start = articles_page.number - 2 if articles_page.number - 2 > 0 else 1 %}
+    {% set end = start + 4 if start + 4 < articles_paginator.num_pages else articles_paginator.num_pages %} {# Loop
+      through pages and add numbers #} {% for page_num in range(start, end + 1) %} {% if page_num==articles_page.number
+      %} <span class="page-numbers current">
+      <span class="meta-nav screen-reader-text">Page </span>{{ page_num }}
+      </span>
+      {% else %}
+      <a class="page-numbers"
+        href="{{ SITEURL }}/category/{% if page_num > 1 %}{{ category.slug }}/page/{{ page_num }}.html{% else %}{{ category.slug }}.html{% endif %}">
+        <span class="meta-nav screen-reader-text">Page </span>{{ page_num }}
+      </a>
+      {% endif %}
+      {% endfor %}
+
+      {# If there are more pages, add ellipsis #}
+      {% if end < articles_paginator.num_pages %} <span class="page-numbers dots">&#8230;</span>
+        <a class="page-numbers"
+          href="{{ SITEURL }}/category/{{ category.slug }}/page/{{ articles_paginator.num_pages }}.html">
+          <span class="meta-nav screen-reader-text">Page </span>{{ articles_paginator.num_pages }}
+        </a>
+        {% endif %}
+
+        {# Next button if there is a next page #}
+        {% if articles_page.has_next() %}
+        <a class="next page-numbers"
+          href="{{ SITEURL }}/category/{{ category.slug }}/page/{{ articles_page.next_page_number() }}.html"
+          rel="next">Next page</a>
+        {% endif %}
+
+  </div>
+</nav>
+{% endblock %}

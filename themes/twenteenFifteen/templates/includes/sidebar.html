@@ -1,0 +1,44 @@
+<div id="sidebar" class="sidebar">
+  <header id="masthead" class="site-header" role="banner">
+    <div class="site-branding">
+      <h1 class="site-title">
+        <a href="{{SITEURL}}/" rel="home">{{ SITENAME }}</a>
+      </h1>
+      <p class="site-description">{{ SITESUMMARY }}</p>
+      <button class="secondary-toggle">Menu</button>
+    </div>
+  </header>
+  <div id="secondary" class="secondary">
+    <div id="widget-area" class="widget-area" role="complementary">
+      <aside class="widget widget_categories">
+        <h2 class="widget-title">Categories</h2>
+        <ul>
+          {% for category, articles in categories %}
+          <li>
+            <a href="{{ SITEURL }}/category/{{ category.slug }}.html">{{ category }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </aside>
+      <aside class="widget widget_recent_entries">
+        <h2 class="widget-title">Recent Posts</h2>
+        <ul>
+          {% for article in articles[:6] %}
+          <li><a href="{{ SITEURL }}/{{article.url}}">{{article.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
+      <aside class="widget widget_meta">
+        <h2 class="widget-title">Pages</h2>
+        <ul>
+          {% for page in pages %}
+          {% if page.slug != '404' %}
+          <li><a href="{{ SITEURL }}/{{page.url}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          <li><a href="{{ SITEURL }}/categories.html">Categories</a></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</div>
