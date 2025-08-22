@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Florilegium</title><link href="https://enury.github.io/florilegium/" rel="alternate"/><link href="https://enury.github.io/florilegium/feeds/all.atom.xml" rel="self"/><id>https://enury.github.io/florilegium/</id><updated>2025-08-21T00:00:00+02:00</updated><entry><title>Save to Zotero: make it easy with COinS</title><link href="https://enury.github.io/florilegium/save-to-zotero-make-it-easy-with-coins.html" rel="alternate"/><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><author><name>Elisa Nury</name></author><id>tag:enury.github.io,2025-08-21:/florilegium/save-to-zotero-make-it-easy-with-coins.html</id><summary type="html">&lt;p&gt;A quick guide to make your HTML page easily saved to Zotero using COinS metadata&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you are preparing a digital resource and want it to be properly cited, you may want to make it easy for readers to save your page directly to their reference management of choice, e.g. Zotero. One way to do that is to integrate &lt;a href="https://en.wikipedia.org/wiki/COinS"&gt;COinS metadata&lt;/a&gt; in the HTML code (&lt;a href="https://www.digitalhumanities.org/dhq/vol/15/3/000561/000561.html"&gt;Bleier 2021&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://grammateus.unige.ch"&gt;grammateus&lt;/a&gt; project, we wanted to make our pages easily saved, to encourage people to cite the content properly. But easier said than done! The COinS website is not accessible anymore, and it is not obvious which field to use for which piece of metadata, in particular the type and the DOI which I needed to include.&lt;/p&gt;
+&lt;p&gt;After digging around, here is the solution I have found.&lt;/p&gt;
+&lt;h2&gt;Step by Step&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open Zotero and create the ideal citation&lt;/li&gt;
+&lt;li&gt;Export it to COinS
+&lt;img alt="img" src="images/zotero-coins-export.png"&gt; &lt;/li&gt;
+&lt;li&gt;If necessary, adapt it with more options: &lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rft.type&lt;/code&gt; to specify the &lt;a href="https://www.zotero.org/support/kb/item_types_and_fields"&gt;type&lt;/a&gt; of resource (book, webpage, dataset, blog post, document...)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rft.id&lt;/code&gt; to specify the DOI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Copy the &lt;code&gt;span&lt;/code&gt; created to your HTML page&lt;/li&gt;
+&lt;li&gt;Voilà!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Example&lt;/h2&gt;
+&lt;p&gt;Example from a grammateus &lt;a href="https://grammateus.unige.ch/descriptions/warrant"&gt;page&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Z3988&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;title=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;url_ver=Z39.88-2004&amp;amp;amp;ctx_ver=Z39.88-2004&amp;amp;amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;amp;rft.type=webpage&amp;amp;amp;rft_id=info%3Adoi%2Fhttp%3A%2F%2Fdoi.org%2F10.26037/yareta:4bcjmpoy6zavbozlhn46ckrrci&amp;amp;amp;rft.title=Description%20of%20Greek%20Documentary%20Papyri:%20Warrant&amp;amp;amp;rft.source=grammateus%20project&amp;amp;amp;rft.identifier=https://grammateus.unige.ch/descriptions/warrant&amp;amp;amp;rft.aufirst=Gianluca&amp;amp;amp;rft.aulast=Bonagura&amp;amp;amp;rft.au=Gianluca%20Bonagura&amp;amp;amp;rft.au=Ruey-Lin%20Chang&amp;amp;amp;rft.au=Lavinia%20Ferretti&amp;amp;amp;rft.au=Susan%20Fogarty&amp;amp;amp;rft.au=Elisa%20Nury&amp;amp;amp;rft.au=Paul%20Schubert&amp;amp;amp;rft.date=2024&amp;amp;amp;rft.language=en&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you use the Zotero connector to save the page, it should appear properly among your references. Although Zotero is inventing a short title out of thin air, but that is not a big deal.&lt;/p&gt;
+&lt;h2&gt;Why not meta tags?&lt;/h2&gt;
+&lt;p&gt;When I was looking for options, I started first with the meta tags described on the page for &lt;a href="https://www.zotero.org/support/dev/exposing_metadata"&gt;exposing metadata&lt;/a&gt;. It might be sufficient in some cases, but I did not find how to specify the type of resource, for instance if I wanted to save a page as a dataset.&lt;/p&gt;</content><category term="DH"/></entry></feed>
