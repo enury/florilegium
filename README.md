@@ -1,5 +1,7 @@
 # About
 
+https://enury.github.io/florilegium/
+
 This blog is for funny or interesting tidbits about Digital Humanities, manuscripts, papyri or any sort of ancient document that I encounter!
 
 ---
