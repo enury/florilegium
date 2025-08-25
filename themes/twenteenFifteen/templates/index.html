@@ -35,6 +35,9 @@
                 }}</time>
             <time class="updated" datetime="{{ article.date }}">{{ article.date.strftime("%Y-%m-%d") }}</time>
         </span>
+        <span class="posted-by">
+            {{ article.author }}
+        </span>
         <span class="cat-links">
             <span class="screen-reader-text">Category </span>
             <a href="{{ SITEURL }}/category/{{ article.category }}.html" rel="category">{{ article.category }}</a>

@@ -1,5 +1,7 @@
 Title: Save to Zotero: make it easy with COinS
 Summary: A quick guide to make your HTML page easily saved to Zotero using COinS metadata
+Slug: 2025-08-21-save-to-zotero-with-coins
+Author: Elisa Nury
 Featured_image: images/logo-zotero.png
 Date: 2025-08-21
 Category: DH

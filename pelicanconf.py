@@ -1,5 +1,6 @@
 AUTHOR = 'Elisa Nury'
 SITENAME = 'Florilegium'
+SITESUMMARY = ''
 SITEURL = ""
 
 PATH = "content"
