@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta name="generator" content="Pelican" />
+
+  <!-- YOUR SITE FAVICON IMAGES -->
+  <link href="https://enury.github.io/florilegium/theme/assets/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="https://enury.github.io/florilegium/theme/assets/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="https://enury.github.io/florilegium/theme/assets/images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+
+<meta name="robots" content="nonindex, follow">
+<title>Mystical Pelican</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Elisa Nury">
+
+
+<link rel="canonical" href="https://enury.github.io/florilegium/drafts/2025-10-01-mystical-pelican.html">
+<meta name="description" content="Integrating a IIIF viewer in a pelican blog article">
+
+<!-- Open Graph for articles -->
+<meta property="og:title" content="Mystical Pelican">
+<meta property="og:description" content="Integrating a IIIF viewer in a pelican blog article">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://enury.github.io/florilegium/drafts/2025-10-01-mystical-pelican.html">
+<meta property="article:published_time" content="2025-10-01 00:00:00+02:00">
+
+  <!--[if lt IE 9]>
+    <script src="https://enury.github.io/florilegium/assets/scripts/vendors/html5.js"></script>
+    <![endif]-->
+  <script>(function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement);</script>
+  <link rel='stylesheet' id='twentyfifteen-fonts-css'
+    href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='genericons-css'
+    href="https://enury.github.io/florilegium/theme/assets/stylesheets/vendors/genericons/genericons.css" type='text/css' media='all' />
+  <link rel='stylesheet' id='twentyfifteen-style-css' href="https://enury.github.io/florilegium/theme/assets/stylesheets/vendors/style.css"
+    type='text/css' media='all' />
+  <link rel='stylesheet' href="https://enury.github.io/florilegium/theme/assets/stylesheets/vendors/syntax.css" type='text/css' />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tify@0.33.0/dist/tify.css">
+  <!--[if lt IE 9]>
+    <link rel='stylesheet' id='twentyfifteen-ie-css' href="https://enury.github.io/florilegium/assets/stylesheets/vendors/ie.css" type='text/css' media='all' />
+    <![endif]-->
+  <!--[if lt IE 8]>
+    <link rel='stylesheet' id='twentyfifteen-ie7-css'  href="https://enury.github.io/florilegium/assets/stylesheets/vendors/ie7.css" type='text/css' media='all' />
+    <![endif]-->
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+</head>
+
+<body class="home blog">
+  <div id="page" class="hfeed site">
+    <a class="skip-link screen-reader-text" href="index.html#content">Skip</a>
+<div id="sidebar" class="sidebar">
+  <header id="masthead" class="site-header" role="banner">
+    <div class="site-branding">
+      <h1 class="site-title">
+        <a href="https://enury.github.io/florilegium/" rel="home">Florilegium</a>
+      </h1>
+      <p class="site-description"></p>
+      <button class="secondary-toggle">Menu</button>
+    </div>
+  </header>
+  <div id="secondary" class="secondary">
+    <div id="widget-area" class="widget-area" role="complementary">
+      <aside class="widget widget_categories">
+        <h2 class="widget-title">Categories</h2>
+        <ul>
+          <li>
+            <a href="https://enury.github.io/florilegium/category/dh.html">DH</a>
+          </li>
+          <li>
+            <a href="https://enury.github.io/florilegium/category/manuscripts.html">Manuscripts</a>
+          </li>
+        </ul>
+      </aside>
+      <aside class="widget widget_recent_entries">
+        <h2 class="widget-title">Recent Posts</h2>
+        <ul>
+          <li><a href="https://enury.github.io/florilegium/2025-08-30-hic-sunt-dracones.html">Hic Sunt Dracones</a></li>
+          <li><a href="https://enury.github.io/florilegium/2025-08-21-save-to-zotero-with-coins.html">Save to Zotero: make it easy with COinS</a></li>
+        </ul>
+      </aside>
+      <aside class="widget widget_meta">
+        <h2 class="widget-title">Pages</h2>
+        <ul>
+          <li><a href="https://enury.github.io/florilegium/pages/about.html">About</a></li>
+          <li><a href="https://enury.github.io/florilegium/categories.html">Categories</a></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</div>    <div id="content" class="site-content">
+      <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+<article class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h2 class="entry-title">
+      Mystical Pelican
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p><p>I'm interested in using a viewer to display IIIF images for two reasons: first of all because I would not need to worry too much about images rights and also because it would limit the amount of data I have to store myself. The downside is that links to images may cease working in the long term.</p>
+<h3>Pelican theme settings</h3>
+<p>I've downloaded the TwentyFifteen theme and copied the content of <code>themes/twenteenFifteen</code> in my github main branch. Then I defined the THEME variable in the configuration file:
+<code>THEME = 'themes/twenteenFifteen'</code></p>
+<h3>Modifying the theme</h3>
+<p>In the <code>base.html</code> template I added the link to tify's css along with the other stylesheets. </p>
+<p>In <code>article.html</code> I included the following code:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">article</span><span class="p">.</span><span class="n">manifest</span><span class="w"> </span><span class="o">%</span><span class="p">}</span>
+<span class="o">&lt;</span><span class="n">script</span><span class="w"> </span><span class="n">src</span><span class="o">=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/tify@0.33.0/dist/tify.js&quot;</span><span class="o">&gt;&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
+<span class="n">new</span><span class="w"> </span><span class="n">Tify</span><span class="p">({</span>
+<span class="w">  </span><span class="nl">container</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;#</span><span class="n">tify</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">  </span><span class="nl">manifestUrl</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;</span><span class="p">{{</span><span class="w"> </span><span class="n">article</span><span class="p">.</span><span class="n">manifest</span><span class="w"> </span><span class="p">}}</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="p">})</span>
+<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+<span class="p">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="p">}</span>
+</code></pre></div>
+
+<p>It is a very basic solution to start with, allowing one manifest per page. </p>
+<p>For another Pelican plugin with IIIF functionality, see Frederik Elwert's <a href="https://github.com/frederik-elwert/pelican-collection-demo">Pelican Collection Demo</a></p>
+<h3>Generating manifests</h3>
+<p>For the manifest generation, I've a set of XQuery functions adapted from e-editiones <a href="https://teipublisher.com/exist/apps/tei-publisher/documentation/presentation-manifests">TEI Publisher</a>, that I run in eXist-db.</p>
+<p>I store the generated manifests in the folder <code>images/manifests</code>.</p>
+<p>I have included as much metadata as possible from the original manifest of the images, but they are not showing up in tify only the full manifest metadata appears in the menu. When I have the time, I'll try to find a solution so that the credits for each image can be found.</p>
+<p>And my next goal will be to add annotations to the manifest, so that I can comment on each image individually!</p>
+<hr>
+<p>Apparently there are not so many (at least easily findable) examples of using a IIIF viewer in a pelican website. My web browser was either focusing on pages about the <a href="https://en.wikipedia.org/wiki/Dalmatian_pelican">Curly-headed Pelican</a>, or IIIF tutorials... Then in a strike of genius, it started to direct me to <a href="https://portail.biblissima.fr/fr/bbma.view?q=p%C3%A9lican+mystique&amp;vid=search-results">Biblissima</a> pages with these representations of the "mystical pelican", a pelican who is piercing its chest in a Christ-like manner to feed its nestlings.</p>
+<p>I definitely need to know more about this! In the meantime, please enjoy this collection of lovely mystical pelicans.</p>
+<div id="tify" style="height: 650px"></div></p>
+  </div>
+  <footer class="entry-footer">
+    <span class="posted-on">
+      <span class="screen-reader-text">Skip</span>
+      <time class="entry-date published" datetime="2025-10-01 00:00:00+02:00">2025-10-01</time>
+      <time class="updated" datetime="2025-10-01 00:00:00+02:00">2025-10-01</time>
+    </span>
+    <span class="posted-by">
+      Elisa Nury
+    </span>
+    <span class="cat-links">
+      <span class="screen-reader-text">Category </span>
+      <a href="https://enury.github.io/florilegium/category/misc.html" rel="category">misc</a>
+    </span>
+  </footer>
+</article>
+
+<br>
+<section class="format-standard hentry" style="padding: 25px;">
+<div id="disqus_thread">
+    <a href="#" class="comments-holder" onclick="loadDisqus();return false;">Show/Post Comments</a>
+</div>
+<script>
+
+    var disqus_shortname = "";
+    var disqus_config = function () {
+        this.page.url = 'https://enury.github.io/florilegium/drafts/2025-10-01-mystical-pelican.html';
+        this.page.identifier = 'https://enury.github.io/florilegium/drafts/2025-10-01-mystical-pelican.html';
+    };
+    var is_disqus_loaded = false;
+    function loadDisqus() {
+        if (!is_disqus_loaded) {
+            is_disqus_loaded = true;
+            var d = document, s = d.createElement('script');
+            s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+
+    };
+</script>
+<style>
+    div#disqus_thread {
+        text-align: center;
+        background-color: #eee;
+        padding: 12px;
+        font-weight: bold;
+    }
+</style></section>
+<script src="https://cdn.jsdelivr.net/npm/tify@0.33.0/dist/tify.js"></script>
+<script>
+new Tify({
+  container: '#tify',
+  manifestUrl: 'https://enury.github.io/florilegium/images/manifests/mystical-pelican.json',
+})
+</script>
+        </main>
+      </div>
+    </div>
+<script type='text/javascript' src="https://enury.github.io/florilegium/theme/assets/scripts/vendors/jquery/jquery.js"></script>
+<script type='text/javascript' src="https://enury.github.io/florilegium/theme/assets/scripts/vendors/jquery/jquery-migrate.min.js"></script>
+<script type='text/javascript' src="https://enury.github.io/florilegium/theme/assets/scripts/vendors/skip-link-focus-fix.js"></script>
+<script type='text/javascript'>
+  /* <![CDATA[ */
+  var screenReaderText = { "expand": "<span class=\"screen-reader-text\">\ud558\uc704 \uba54\ub274 \ud655\uc7a5<\/span>", "collapse": "<span class=\"screen-reader-text\">\ud558\uc704 \uba54\ub274 \ucd95\uc18c<\/span>" };
+  /* ]]> */
+</script>
+<script type='text/javascript' src="https://enury.github.io/florilegium/theme/assets/scripts/vendors/functions.js"></script>
+  </div>
+</body>
+
+</html>

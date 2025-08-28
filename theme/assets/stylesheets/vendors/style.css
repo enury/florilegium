@@ -106,6 +106,13 @@ section {
 	display: block;
 }
 
+figcaption {
+	font-style: italic;
+	font-size: smaller;
+	color: gray;
+	text-align: center;
+}
+
 ol,
 ul {
 	list-style: none;
@@ -441,6 +448,18 @@ img {
 	height: auto;
 	max-width: 100%;
 	vertical-align: middle;
+}
+
+p img {
+	display:block;
+	margin: auto;
+}
+
+img + em {
+	font-size: smaller;
+	color: gray;
+	display: block;
+	text-align: center;
 }
 
 figure {
@@ -4086,7 +4105,7 @@ p > video {
 
 @media screen and (min-width: 59.6875em) {
 	body:before {
-		background-color: #fff;
+		/*background-color: #fff;*/
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 		content: "";
 		display: block;
@@ -4111,6 +4130,8 @@ p > video {
 		position: relative;
 		width: 29.4118%;
 		background-image: url('../../../assets/images/florilegium-dragon2.png');
+		background-color: #fff;
+		height: -webkit-fill-available;
 	}
 
 	.secondary {
