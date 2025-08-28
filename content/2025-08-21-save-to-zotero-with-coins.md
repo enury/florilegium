@@ -2,9 +2,9 @@ Title: Save to Zotero: make it easy with COinS
 Summary: A quick guide to make your HTML page easily saved to Zotero using COinS metadata
 Slug: 2025-08-21-save-to-zotero-with-coins
 Author: Elisa Nury
-Featured_image: images/logo-zotero.png
 Date: 2025-08-21
 Category: DH
+Featured_image: images/logo-zotero.png
 
 If you are preparing a digital resource and want it to be properly cited, you may want to make it easy for readers to save your page directly to their reference management of choice, e.g. Zotero. One way to do that is to integrate [COinS metadata](https://en.wikipedia.org/wiki/COinS) in the HTML code ([Bleier 2021](https://www.digitalhumanities.org/dhq/vol/15/3/000561/000561.html)).
 

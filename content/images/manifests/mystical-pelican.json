@@ -1,0 +1,1192 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://e-editiones.org/manifest.json",
+  "@type" : "sc:Manifest",
+  "structures" : [ {
+    "@id" : "https://e-editiones.org/range/r0",
+    "@type" : "sc:Range",
+    "label" : "Contents",
+    "viewingHint" : "top",
+    "ranges" : [ "https://e-editiones.org/range/r1", "https://e-editiones.org/range/r2", "https://e-editiones.org/range/r3", "https://e-editiones.org/range/r4", "https://e-editiones.org/range/r5", "https://e-editiones.org/range/r6", "https://e-editiones.org/range/r7", "https://e-editiones.org/range/r8", "https://e-editiones.org/range/r9", "https://e-editiones.org/range/r10", "https://e-editiones.org/range/r11", "https://e-editiones.org/range/r12", "https://e-editiones.org/range/r13", "https://e-editiones.org/range/r14", "https://e-editiones.org/range/r15" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r1",
+    "@type" : "sc:Range",
+    "label" : "France, Paris. Bibliothèque Sainte-Geneviève, Ms. 90 f. 167v",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r2",
+    "@type" : "sc:Range",
+    "label" : "France, Troyes. Médiathèque du Grand Troyes, Ms. 177",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r3",
+    "@type" : "sc:Range",
+    "label" : "France, Lyon. Bibliothèque municipale, Ms 521",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r4",
+    "@type" : "sc:Range",
+    "label" : "France, Reims. Bibliothèque de Reims, Ms. 993",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r5",
+    "@type" : "sc:Range",
+    "label" : "France, Amiens. Bibliothèques d'Amiens Métropole, Ms. 399",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r6",
+    "@type" : "sc:Range",
+    "label" : "France, Valenciennes. Bibliothèque municipale, Ms. 101",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r7",
+    "@type" : "sc:Range",
+    "label" : "France, Lyon. Bibliothèque municipale, Ms 539",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r8",
+    "@type" : "sc:Range",
+    "label" : "France, Lyon. Bibliothèque municipale, Ms 6022",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r9",
+    "@type" : "sc:Range",
+    "label" : "France, Paris. Bibliothèque Sainte-Geneviève, Ms. 90 f. 167v",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r10",
+    "@type" : "sc:Range",
+    "label" : "France, Valenciennes, Médiathèque Simone Veil, fonds principal, 320 (304)",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r11",
+    "@type" : "sc:Range",
+    "label" : "France, Autun. Bibliothèque municipale, Legs Chevalier n° 17",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r12",
+    "@type" : "sc:Range",
+    "label" : "France, Évreux. Bibliothèque-médiathèque, lat. 99",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r13",
+    "@type" : "sc:Range",
+    "label" : "France, Douai. Bibliothèque municipale, Ms. 112",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r14",
+    "@type" : "sc:Range",
+    "label" : "France, Besançon. Bibliothèque municipale, Ms. 551",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d" ]
+  }, {
+    "@id" : "https://e-editiones.org/range/r15",
+    "@type" : "sc:Range",
+    "label" : "France, Cambrai. Médiathèque d'agglomération, Ms. 103 B",
+    "canvases" : [ "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs" ]
+  } ],
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s",
+      "@type" : "sc:Canvas",
+      "label" : "France, Paris. Bibliothèque Sainte-Geneviève, Ms. 90 f. 167v",
+      "width" : 2100,
+      "height" : 3150,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Dijon, Bibliothèque municipale, fonds principal, 526 (299)"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "RICHARD de FOURNIVAL ; GUILLAUME de LORRIS et JEAN de MEUN, Roman de la rose ; etc."
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "14e s. (début)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "207 x 143"
+      }, {
+        "label" : "Foliotation",
+        "value" : "161 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md21td96k616"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md21td96k616"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque municipale de Dijon"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2100,
+          "height" : 3150,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : "Pelican being annoyed by its flying nestlings! The mystical pelican, on the other hand, is unfathomed..."
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbjc93ueyf7s"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5",
+      "@type" : "sc:Canvas",
+      "label" : "France, Troyes. Médiathèque du Grand Troyes, Ms. 177",
+      "width" : 2544,
+      "height" : 3075,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Troyes, Médiathèque Jacques-Chirac, fonds principal, 177"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "HUGO de FOLIETO; RICHARDUS de SANCTO VICTORE; CYPRIANUS (Ps.); Sacramentis (De)"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "12e s."
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "347 x 240"
+      }, {
+        "label" : "Foliotation",
+        "value" : "223 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md375t34tp5c"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md375t34tp5c"
+      }, {
+        "label" : "attribution",
+        "value" : "Médiathèque Jacques-Chirac de Troyes"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2544,
+          "height" : 3075,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : ""
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vn3zxf6vcid5"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802",
+      "@type" : "sc:Canvas",
+      "label" : "France, Lyon. Bibliothèque municipale, Ms 521",
+      "width" : 2477,
+      "height" : 3651,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Lyon, Bibliothèque de la Part-Dieu, fonds principal, 521 (441)"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : ""
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "16e s."
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "500 x 347"
+      }, {
+        "label" : "Foliotation",
+        "value" : ""
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md63st74fw4k"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md63st74fw4k"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque de la Part-Dieu de Lyon"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2477,
+          "height" : 3651,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : ""
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzjb1prez802"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa",
+      "@type" : "sc:Canvas",
+      "label" : "France, Reims. Bibliothèque de Reims, Ms. 993",
+      "width" : 3117,
+      "height" : 2100,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Reims, Bibliothèque Carnegie, fonds principal, 993"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "JEAN CORBECHON, Livre des propriétés des choses"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "14e s. (fin)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "338 x 250"
+      }, {
+        "label" : "Foliotation",
+        "value" : "313 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md37hq37xn84"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md37hq37xn84"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque Carnegie de Reims"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 3117,
+          "height" : 2100,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : ""
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vjtgq69h5ksa"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc",
+      "@type" : "sc:Canvas",
+      "label" : "France, Amiens. Bibliothèques d'Amiens Métropole, Ms. 399",
+      "width" : 2928,
+      "height" : 1960,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Amiens, Bibliothèque Louis Aragon, fonds principal, 399"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "JEAN CORBECHON, Livre des propriétés des choses"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "15e s. (1447)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "400 x 300"
+      }, {
+        "label" : "Foliotation",
+        "value" : "296 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md78tb09j957"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md78tb09j957"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque Louis Aragon de Amiens"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2928,
+          "height" : 1960,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : ""
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vvbqyd3tmyvc"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853",
+      "@type" : "sc:Canvas",
+      "label" : "France, Valenciennes. Bibliothèque municipale, Ms. 101",
+      "width" : 3397,
+      "height" : 2071,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Valenciennes, Médiathèque Simone Veil, fonds principal, 101 (94)"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "GUILLELMUS BRITO, Expositiones vocabulorum Bibliae ; HUGO de FOLIETO, Avibus et aliis rebus (De)"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "13e s."
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "355 x 242"
+      }, {
+        "label" : "Foliotation",
+        "value" : "201 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md23hx120q50"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md23hx120q50"
+      }, {
+        "label" : "attribution",
+        "value" : "Médiathèque Simone Veil de Valenciennes"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 3397,
+          "height" : 2071,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : "This one look more like a mystical flamingo to me!"
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vl40pigyo853"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn",
+      "@type" : "sc:Canvas",
+      "label" : "France, Lyon. Bibliothèque municipale, Ms 539",
+      "width" : 3000,
+      "height" : 2032,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Lyon, Bibliothèque de la Part-Dieu, fonds principal, 539 (459)"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "Psautier-hymnaire de l'abbaye Notre-Dame de Jully-les-Nonnains"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "13e s. (ca. 1228) ; 13e s. (deuxième quart)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "214 x 145"
+      }, {
+        "label" : "Foliotation",
+        "value" : "248 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md29p267767s"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md29p267767s"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque de la Part-Dieu de Lyon"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 3000,
+          "height" : 2032,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : "A sadly resigned pelican"
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vnouuy3lstdn"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx",
+      "@type" : "sc:Canvas",
+      "label" : "France, Lyon. Bibliothèque municipale, Ms 6022",
+      "width" : 4808,
+      "height" : 3240,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Lyon, Bibliothèque de la Part-Dieu, fonds principal, 6022"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : ""
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "15e s."
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "230 x 120"
+      }, {
+        "label" : "Foliotation",
+        "value" : ""
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md719k421f6g"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md719k421f6g"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque de la Part-Dieu de Lyon"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 4808,
+          "height" : 3240,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : ""
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsxhc8wbqojx"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s",
+      "@type" : "sc:Canvas",
+      "label" : "France, Paris. Bibliothèque Sainte-Geneviève, Ms. 90 f. 167v",
+      "width" : 2712,
+      "height" : 1840,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Paris, Bibliothèque Sainte-Geneviève, fonds principal, 90"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "Missel à l'usage de l'abbaye Sainte-Geneviève de Paris"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "13e s.-14e s."
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "303 x 215"
+      }, {
+        "label" : "Foliotation",
+        "value" : ""
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md58pc28bd9t"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md58pc28bd9t"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque Sainte-Geneviève de Paris"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2712,
+          "height" : 1840,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : null
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vzoa0nfurv4s"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26",
+      "@type" : "sc:Canvas",
+      "label" : "France, Valenciennes, Médiathèque Simone Veil, fonds principal, 320 (304)",
+      "width" : 3451,
+      "height" : 1978,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Valenciennes, Médiathèque Simone Veil, fonds principal, 320 (304)"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "THOMAS CANTIPRATENSIS, Natura rerum (De)"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "13e s. (ca. 1290)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "220 x 160"
+      }, {
+        "label" : "Foliotation",
+        "value" : "199 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md17cr56q92p"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md17cr56q92p"
+      }, {
+        "label" : "attribution",
+        "value" : "Médiathèque Simone Veil de Valenciennes"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 3451,
+          "height" : 1978,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : null
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vu7k4icu4b26"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25",
+      "@type" : "sc:Canvas",
+      "label" : "France, Autun. Bibliothèque municipale, Legs Chevalier n° 17",
+      "width" : 4872,
+      "height" : 6496,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Autun, fonds principal, Legs Chevalier n° 17"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "? (enluminure découpée)"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "15e s. (quatrième quart)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "?"
+      }, {
+        "label" : "Foliotation",
+        "value" : "fragment"
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md354f16f21v"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md354f16f21v"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque Bussy-Rabutin de Autun"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 4872,
+          "height" : 6496,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : null
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vbec5pl8wn25"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo",
+      "@type" : "sc:Canvas",
+      "label" : "France, Évreux. Bibliothèque-médiathèque, lat. 99",
+      "width" : 2100,
+      "height" : 3150,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Évreux, Bibliothèque municipale, fonds principal, lat. 99"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "Missel à l'usage d'Evreux [Missel de Raoul du Fou]"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "15e s.-16e s. (1479-1511)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "370 x 265"
+      }, {
+        "label" : "Foliotation",
+        "value" : "225 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md60qr46t63n"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md60qr46t63n"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque municipale de Évreux"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2100,
+          "height" : 3150,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : null
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vyy61sfr0gjo"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j",
+      "@type" : "sc:Canvas",
+      "label" : "France, Douai. Bibliothèque municipale, Ms. 112",
+      "width" : 2533,
+      "height" : 3800,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Douai, Bibliothèque Marceline Desbordes-Valmore, fonds principal, 112"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "Graduel à l'usage de l'abbaye Sainte-Rictrude de Marchiennes"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "16e s. (1548)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "550 x 360"
+      }, {
+        "label" : "Foliotation",
+        "value" : "229 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md67wm11b01t"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md67wm11b01t"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque Marceline Desbordes-Valmore de Douai"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2533,
+          "height" : 3800,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : null
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vsza5ahvmr7j"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d",
+      "@type" : "sc:Canvas",
+      "label" : "France, Besançon. Bibliothèque municipale, Ms. 551",
+      "width" : 3150,
+      "height" : 2100,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Besançon, Bibliothèque municipale d'étude et de conservation, fonds principal, 551"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "GAUTIER de COINCI, Miracles de Notre Dame ; Vie des Pères"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "13e s. (troisième quart)"
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "345 x 245"
+      }, {
+        "label" : "Foliotation",
+        "value" : "180 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md731257b03h"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md731257b03h"
+      }, {
+        "label" : "attribution",
+        "value" : "Bibliothèque municipale d'étude et de conservation de Besançon"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 3150,
+          "height" : 2100,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : null
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/vuj6x7amd25d"
+        } ]
+      } ]
+    }, {
+      "@id" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs",
+      "@type" : "sc:Canvas",
+      "label" : "France, Cambrai. Médiathèque d'agglomération, Ms. 103 B",
+      "width" : 5144,
+      "height" : 3440,
+      "metadata" : [ {
+        "label" : "Cote",
+        "value" : "France, Cambrai, Le Labo - Cambrai, fonds principal, 103 (103)"
+      }, {
+        "label" : "Auteur, titre, oeuvre",
+        "value" : "Bréviaire à l'usage de l'abbaye du Saint-Sépulcre de Cambrai"
+      }, {
+        "label" : "Support",
+        "value" : "parchemin"
+      }, {
+        "label" : "Datation",
+        "value" : "13e s.-14e s."
+      }, {
+        "label" : "Dimensions (mm)",
+        "value" : "202 x 137"
+      }, {
+        "label" : "Foliotation",
+        "value" : "603 f."
+      }, {
+        "label" : "Notes",
+        "value" : ""
+      }, {
+        "label" : "Provider",
+        "value" : "Arca &ndash; IRHT-CNRS"
+      }, {
+        "label" : "Source images",
+        "value" : "https://arca.irht.cnrs.fr/ark:/63955/md311n79kg50"
+      }, {
+        "label" : "Source métadonnées",
+        "value" : "http://arca.irht.cnrs.fr/ark:/63955/md311n79kg50"
+      }, {
+        "label" : "attribution",
+        "value" : "Le Labo - Cambrai de Cambrai"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 5144,
+          "height" : 3440,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs"
+      } ],
+      "annotations" : [ {
+        "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs",
+        "@type" : "oa:AnnotationPage",
+        "items" : [ {
+          "@id" : "https://e-editiones.org/annotation/https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs/annotation1",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:commenting",
+          "body" : {
+            "@type" : "TextualBody",
+            "language" : "en",
+            "format" : "text/plain",
+            "value" : "Pelican in the middle of a fight between anthropomorph hybrids"
+          },
+          "target" : "https://e-editiones.org/canvas/https://iiif.irht.cnrs.fr/iiif/ark:/63955/v1a9onagaqhs"
+        } ]
+      } ]
+    } ]
+  } ],
+  "metadata" : [ {
+    "label" : "Description",
+    "value" : "A series of unfortunate pelicans"
+  } ],
+  "label" : "Mystical Pelicans",
+  "license" : "https://creativecommons.org/licenses/by-nc/4.0/"
+}

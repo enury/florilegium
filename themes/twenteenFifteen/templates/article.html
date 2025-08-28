@@ -17,11 +17,10 @@
     <h2 class="entry-title">
       {{ article.title }}
     </h2>
-    <br>
     {% if article.metadata.featured_image %}
     <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}" />
+    <figcaption>{{article.featured_image_caption}}</figcaption>
     {% endif %}
-    <br>
   </header>
   <div class="entry-content">
     <p>{{ article.content }}</p>
@@ -46,4 +45,13 @@
 <section class="format-standard hentry" style="padding: 25px;">
   {% include 'includes/comments_widget.html' %}
 </section>
+{% if article.manifest %}
+<script src="https://cdn.jsdelivr.net/npm/tify@0.33.0/dist/tify.js"></script>
+<script>
+new Tify({
+  container: '#tify',
+  manifestUrl: '{{ SITEURL }}/{{ article.manifest }}',
+})
+</script>
+{% endif %}
 {% endblock %}
